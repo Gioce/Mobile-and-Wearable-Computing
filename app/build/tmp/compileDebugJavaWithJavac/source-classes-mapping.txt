@@ -1,0 +1,18 @@
+com/example/stepapp/StepAppOpenHelper.java
+ com.example.stepapp.StepAppOpenHelper
+com/example/stepapp/ui/home/HomeFragment.java
+ com.example.stepapp.ui.home.HomeFragment
+ com.example.stepapp.ui.home.HomeFragment$1
+ com.example.stepapp.ui.home.StepCounterListener
+com/example/stepapp/BuildConfig.java
+ com.example.stepapp.BuildConfig
+com/example/stepapp/ui/profile/ProfileFragment.java
+ com.example.stepapp.ui.profile.ProfileFragment
+com/example/stepapp/MainActivity.java
+ com.example.stepapp.MainActivity
+ com.example.stepapp.MainActivity$1
+com/example/stepapp/ui/report/HourFragment.java
+ com.example.stepapp.ui.report.HourFragment
+ com.example.stepapp.ui.report.HourFragment$1
+com/example/stepapp/ui/report/DayFragment.java
+ com.example.stepapp.ui.report.DayFragment

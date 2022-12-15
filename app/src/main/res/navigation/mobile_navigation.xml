@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.stepapp.ui.home.HomeFragment"
+        android:label="@string/menu_steps"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_hour"
+        android:name="com.example.stepapp.ui.report.HourFragment"
+        android:label="@string/menu_hour"
+        tools:layout="@layout/fragment_hour" />
+
+    <fragment
+        android:id="@+id/nav_day"
+        android:name="com.example.stepapp.ui.report.HourFragment"
+        android:label="@string/menu_day"
+        tools:layout="@layout/fragment_hour" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.stepapp.ui.profile.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
+
+

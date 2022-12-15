@@ -1,0 +1,81 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.stepapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml
+10
+11    <!-- Required for 28 and below. -->
+12    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+12-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:6:5-94
+12-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:6:22-91
+13    <!-- Required for 29+. -->
+14    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+14-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:8:5-79
+14-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:9:5-81
+15-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:10:22-77
+17
+18    <application
+18-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:13:5-31:19
+19        android:allowBackup="true"
+19-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] /Users/giorgiocesano/.gradle/caches/transforms-3/6eea6f9af2424c7ac49c133608fd1f6a/transformed/core-1.3.1/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:icon="@drawable/app_icon"
+23-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:15:9-42
+24        android:label="@string/app_name"
+24-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:16:9-41
+25        android:roundIcon="@drawable/app_icon"
+25-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:17:9-47
+26        android:supportsRtl="true"
+26-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:18:9-35
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:19:9-40
+29        <activity
+29-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:20:9-30:20
+30            android:name="com.example.stepapp.MainActivity"
+30-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:21:13-41
+31            android:exported="true"
+31-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:24:13-36
+32            android:label="@string/app_name"
+32-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:22:13-45
+33            android:theme="@style/AppTheme.NoActionBar" >
+33-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:23:13-56
+34            <intent-filter>
+34-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:26:17-69
+35-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:28:17-77
+37-->/Users/giorgiocesano/AndroidStudioProjects/StepApp 6/app/src/main/AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/giorgiocesano/.gradle/caches/transforms-3/b1727e5ac190a80b53584678418e081a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+42            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/giorgiocesano/.gradle/caches/transforms-3/b1727e5ac190a80b53584678418e081a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+43            android:authorities="com.example.stepapp.lifecycle-process"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/giorgiocesano/.gradle/caches/transforms-3/b1727e5ac190a80b53584678418e081a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+44            android:exported="false"
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/giorgiocesano/.gradle/caches/transforms-3/b1727e5ac190a80b53584678418e081a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+45            android:multiprocess="true" />
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/giorgiocesano/.gradle/caches/transforms-3/b1727e5ac190a80b53584678418e081a/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+46    </application>
+47
+48</manifest>

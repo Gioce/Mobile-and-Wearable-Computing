@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">StepApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">StepApp</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_steps">Steps</string>
+    <string name="menu_report">Report</string>
+    <string name="menu_hour">Hour</string>
+    <string name="menu_day">Day</string>
+    <string name="menu_profile">Profile</string>
+    <string name="goal">Goal: %1$d</string>
+    <string name="_0">0</string>
+    <string name="steps">Steps</string>
+    <string name="start">Start</string>
+    <string name="toggle_stop">stop</string>
+    <string name="toggle_start">start</string>
+    <string name="permission_denied">permission denied</string>
+    <string name="acc_not_available">ACC not available</string>
+    <string name="step_not_available">step detector not available</string>
+    <string name="delete_entries">Delete Entries</string>
+    <string name="get_entries">Get Entries</string>
+    <string name="completed_steps_today">Completed steps today:</string>
+    <string name="today">Today</string>
+    <string name="share">Share</string>
+    <string name="hourly_report">Hourly report</string>
+    <string name="daily_report">Daily report</string>
+    <string name="img_folder">app_images</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
+
+
